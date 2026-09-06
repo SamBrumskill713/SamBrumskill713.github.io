@@ -12,8 +12,7 @@ tags:
 ---
 ## Advanced Grpahics
 ### Links:
-<iframe width="600" height="400" src="https://github.com/SamBrumskill713/Graphics-CSC8502" title="CSC8502 OpenGL Coursework Scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_AqVR_X6nTI?si=NwPDMDWFioF-APMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <a href="https://github.com/SamBrumskill713/Graphics-CSC8502"> Github repo </a>

@@ -15,8 +15,7 @@ tags:
 ---
 ## Game Technologies
 ### Links:
-<iframe width="600" height="400" src="https://youtu.be/GaCBi0pxssU?si=zpP5jKwXD4mPNj2f" title="CSC8503 Coursework runthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<a href = "https://github.com/SamBrumskill713/Game-Technologies-CSC8503"> Github Repo</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GaCBi0pxssU?si=z6NzvpukYa9CWeub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
