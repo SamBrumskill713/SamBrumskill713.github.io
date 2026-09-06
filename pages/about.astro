@@ -1,0 +1,133 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Samuel Brumskill" description="About Samuel Brumskill">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for having a look."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/SamSonicJacket.jpg"
+					alt="A photo of me drinking coffee"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Originally from Liverpool, I began programming in secondary with python and furthered my computer science education into sixth form and eventually university in my undergraduate.
+						During this time I became familiar with several different programming languages and frameworks across many differnt programming displines before realising that my passions for programming lay within game development.
+						This lead me to persuing the masters game engineering course focusing on low-level engine programming for games, showing us the fundemental principles in video game and engine programming.
+						It is here where I feel I have made the most progress as a programmer. This course has made me much more aware of performance not just for games but for programming in general, especially after finishing my disserations.
+
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p><b>Newcastle University:</b></p>
+					<div class = "content">
+						<p style="margin-left: 15px;">MSc Game Engineering: TBD</p>
+					</div>
+				</div>
+				<div class="content">
+					<p><b>Liverpool Hope University:</b></p>
+					<div class = "content">
+						<p style="margin-left: 15px;">BSc Computer Science: First Class Honours</p>
+					</div>
+				</div>
+				<div class = "content">
+					<p><b>The Studio Sixth Form:</b></p>
+					<div class = "content">
+						<p style="margin-left: 15px;"> A-Level Computer Science</p>
+						<p style="margin-left: 15px;"> A-Level Physics</p>
+						<p style="margin-left: 15px;"> A-Level History</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Programming Languages</h2>
+				<div class="content">
+					<p>C++, C, C#, Python, Lua</p>
+				</div>
+				<h2 class="section-title">Frameworks and Engines</h2>
+				<div class="content">
+					<p>OpenGL, ENet, ImGui, Jolt Physics, GLM, Unity, UE5</p>
+				</div>
+				<h2 class="section-title">Tools</h2>
+				<div class="content">
+					<p>Visual Studio, IntelliJ, Android Studio, Git, NSight, CMake, Jira</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
