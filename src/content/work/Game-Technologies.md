@@ -16,6 +16,7 @@ tags:
 ## Game Technologies
 ### Links:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GaCBi0pxssU?si=z6NzvpukYa9CWeub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="https://github.com/SamBrumskill713/Game-Technologies-CSC8503">Github Repo</a>
 
 
 

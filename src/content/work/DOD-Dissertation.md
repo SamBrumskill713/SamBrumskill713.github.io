@@ -15,6 +15,7 @@ tags:
 ## Data Oriented Design Dissertation
 ### Links:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b8FbDDmuNlA?si=4JLp3zxgnowQW7jZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="https://github.com/SamBrumskill713/Data-Orienated-Design-Dissertation-CSC8599">Github Repo</a>
 
 ### What I did
 For my dissertation, I decided to do a performance comparision between Data-Oriented Design and Object Oriented Design. I did this by converting the framework made in the game technologies coursework from Object-Oriented to Data-Oriented. The main reason for this was to see how game performance could be affected by a change in paradigm that focuses on efficent use of cache hierarchy and cache lines. The results showed that Data-Oriented Design was much more performant when compared to Object-Oriented Programming.
