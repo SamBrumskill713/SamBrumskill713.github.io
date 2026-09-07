@@ -12,6 +12,7 @@ tags:
   - Networking 
   - AI
   - UI 
+  - 3D Maths
 ---
 ## Game Technologies
 ### Links:
