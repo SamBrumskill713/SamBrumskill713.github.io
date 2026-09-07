@@ -9,6 +9,7 @@ tags:
   - C++
   - OpenGL
   - Graphics Programming
+  - 3D Maths
   
 ---
 ## Advanced Grpahics
@@ -20,16 +21,16 @@ tags:
 
 
 ### What I did?
-This coursework was my first introduction to OpenGL in 3D. We were tasked with creating a 3D scene that showcases different graphics techniques. My scene consisted of a spcae marine wondering a swampy landscape before transitioning to a destroyed version of the landscape with a monolithic obalisc being the inciting incident.
+This coursework was my first introduction to OpenGL in 3D. We were tasked with creating a 3D scene that showcases different graphics techniques. My scene consisted of a space marine wondering a swampy landscape before transitioning to a destroyed version of the landscape with a monolithic obelisk being the inciting incident.
 
 In this project I implemented:
 - Deferred Rendering
-- Real Time Shadows 
-- Cubemapped reflections
-- skybox
+- Real Time Shadows
+- Cube-mapped reflections
+- sky-box
 
 ### How I expanded on this base?
-In this project, I added animation to the scene with the solider walking around the swampy landscape. I also implemented deferred and animated shadows for the solider and the other objects in the scene. 
+In this project, I added animation to the scene with the solider walking around the swampy landscape. I also implemented deferred and animated shadows for the solider and the other objects in the scene.
 
 ### What did I learn?
 

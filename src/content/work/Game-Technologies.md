@@ -31,12 +31,14 @@ This coursework focused on Game Technologies such as Physics, Networking, AI, an
 - Pushdown Automata for UI
 - State Machines for AI
 
+
 ### How I expanded on the given base:
 I also went beyond the required specifications to test my skills. This included doing:
-- Data-Driven text based level creator for quick maze level development. 
+- Data-Driven text based level creator for quick maze level development.
 - Server-Client network Architecture for multiplayer.
 - Orientation constraint for obstacles.
 - Pathfinding and State Machine for AI to roam maze.
 
+
 ### What did I learn:
-Through this coursework, I learned how these systems work to create a game engine and the importance of different aspects of engine development such as the difference between a Server-Client architecure and a peer to peer architecure and how they affect the game. 
+Through this coursework, I learned how these systems work to create a game engine and the importance of different aspects of engine development such as the difference between a Server-Client architecture and a peer to peer architecture and how they affect the game.
